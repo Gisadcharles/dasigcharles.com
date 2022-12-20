@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  margin-top: 500px;;
+}
+
+body {
+  animation: transitionIn 0.75s;
+  animation-duration: 5s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px)
+  }
+  
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+img {
+border-radius: 20px 20px 20px 20px;
+}
+
+p {
+  font-size: 60px;
+}
+
+b {
+  color: #3E1A7B;
+}
